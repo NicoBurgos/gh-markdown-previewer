@@ -1,0 +1,133 @@
+.previewer-container {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #0d1117;
+	color: #fff;
+}
+
+.light-mode .previewer-container {
+	background-color: #fff;
+	color: #0d1117;
+}
+
+.title-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.toggleMode {
+	background-color: transparent;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.light-mode .toggleMode {
+	color: #0d1117;
+}
+
+.previewer {
+	margin: 0 20px;
+	display: block;
+	padding: 10px 20px;
+	width: 90%;
+	height: 85%;
+	overflow-y: auto;
+	background-color: #0d1117;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.light-mode .previewer {
+	background-color: #fff;
+	border: 2px solid #0d1117;
+	color: #0d1117;
+}
+
+.previewer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.previewer p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.previewer ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+.previewer a {
+	color: #0366d6;
+	text-decoration: none;
+}
+
+.previewer a:hover {
+	text-decoration: underline;
+}
+
+.previewer pre {
+	background-color: #f6f8fa;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 10px;
+	overflow-x: auto;
+}
+
+.previewer code {
+	font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+	color: #0d1117;
+	background-color: #f6f8fa;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+}
+
+.previewer img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.previewer table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.previewer th,
+.previewer td {
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+
+.previewer th {
+	background-color: #f6f8fa;
+	color: #0d1117;
+	font-weight: bold;
+}
+
+.previewer blockquote {
+	border-left: 2px solid #0366d6;
+	padding-left: 10px;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #6a737d;
+	font-style: italic;
+}
