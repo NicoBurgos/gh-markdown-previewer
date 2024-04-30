@@ -16,3 +16,10 @@
 .title {
 	padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+	.container {
+		flex-direction: column; /* Cambiar a una columna en dispositivos pequeños */
+		align-items: center; /* Centrar los elementos en la columna */
+	}
+}

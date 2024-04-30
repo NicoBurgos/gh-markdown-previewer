@@ -131,3 +131,9 @@ ol {
 	color: #6a737d;
 	font-style: italic;
 }
+
+@media screen and (max-width: 768px) {
+	.previewer-container {
+		width: 100%;
+	}
+}

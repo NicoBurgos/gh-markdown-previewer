@@ -32,3 +32,9 @@
 	color: #0d1117;
 	background-color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+	.editor-container {
+		width: 100%;
+	}
+}
