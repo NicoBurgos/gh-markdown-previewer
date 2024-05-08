@@ -2,4 +2,6 @@
 
 Markdown previewer with GitHub styles made with Vite, React and Custom Hooks.
 
-[Try it](https://6630994b4cc736996d54c51b--lucent-froyo-122575.netlify.app/)
+[![Preview](https://i.postimg.cc/k5jZ1kqy/Screenshot-31.png)](https://postimg.cc/DWXBmpWW)
+
+# [Try it](https://6630994b4cc736996d54c51b--lucent-froyo-122575.netlify.app/)
